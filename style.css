@@ -128,8 +128,8 @@ margin-left: 30px;
 
 /* New park hotel section style start */
 .new-park-hotel{
-width: 1320px;
-height: 482px;
+max-width: 1320px;
+min-height: 482px;
 text-align: center;
 align-items: center;
 justify-content: center;
@@ -164,3 +164,84 @@ border-radius: 10px;
 cursor: pointer;
 }
 /* New park hotel section style close */
+
+
+
+
+/* New best offer section style start */
+.new-best-offer{
+  max-width: 1320px;
+  min-height: 463px;
+  display: flex;
+  margin:130px auto;
+}
+.new-best-offer div{
+  max-width: 33%;
+  min-height: 100%;
+
+}
+.nbo-content-a{
+  text-align: start;
+  align-items: center;
+  justify-content: center;
+  padding-top:140px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-right:0.5%;
+}
+.nbo-content-a h4{
+color: rgb(255, 0, 0);
+font-family: Inter;
+font-size: 20px;
+font-weight: 500;
+margin-bottom:15px;
+}
+.nbo-content-a h2{
+  color: rgb(7, 2, 17);
+  font-family: Merriweather;
+  font-size: 42px;
+  font-weight: 900;
+  margin-bottom: 15px;
+  }
+  .nbo-content-a p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    }
+  .nbo-img{
+  border-radius: 50%;
+  box-sizing: border-box;
+  border: 11px solid rgb(255, 0, 0);
+  text-align: center;
+  padding:20px;
+  }
+  .nbo-img img{
+  width:100%;
+  height:100%;
+  }
+  .nbo-content-b{
+    margin-left: 0.5%;
+    text-align:start;
+    align-items: center;
+    justify-content: center;
+    padding-left:80px;
+    padding-top:142px;
+  }
+  .nbo-content-b h2{
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 44px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  }
+  .nbo-content-b p{
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  }
+  .nbo-content-b img{
+    margin-top:40px;
+  }
+/* New best offer section style close */
