@@ -416,11 +416,12 @@ input {
 
 /* Footer section style start */
 .footer {
-  width: 1600px;
-  height: 609px;
+  max-width:1320px;
+  min-height: 609px;
   background: rgb(7, 2, 17);
   color: white;
   padding: 140px;
+  margin: auto auto;
 }
 .footer-container{
   width:100%;
