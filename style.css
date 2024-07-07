@@ -124,3 +124,43 @@ margin-left: 30px;
   align-items: center;
 }
 /* Midnight party section style close */
+
+
+/* New park hotel section style start */
+.new-park-hotel{
+width: 1320px;
+height: 482px;
+text-align: center;
+align-items: center;
+justify-content: center;
+margin: auto auto;
+border-radius: 16px;
+background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+
+}
+.new-park-hotel h3{
+font-family: Inter;
+font-size: 28px;
+font-weight: 600;
+line-height:50px;
+}
+.n-p-h-h3-1{
+  padding-top:100px;
+}
+.new-park-hotel span{
+  color:rgb(255, 0, 0);
+}
+.new-park-hotel button{
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 18px;
+font-weight: 700;
+background-color:rgb(255, 0, 0) ;
+margin: 40px;
+justify-content: center;
+align-items: center;
+padding: 16px 32px 16px 32px;
+border-radius: 10px;
+cursor: pointer;
+}
+/* New park hotel section style close */
