@@ -1,9 +1,9 @@
 /* Google font link start */
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
 /* Google font link close */
 
 /* Universal tag style start */
-*{
+* {
   margin: 0;
   box-sizing: border-box;
   font-family: "Merriweather", serif;
@@ -12,19 +12,18 @@
 /* Universal tag style start */
 
 /* Banner section style start */
-.banner{
+.banner {
   justify-content: center;
   align-items: center;
   max-width: 1320px;
   min-height: 600px;
   margin: 130px auto;
   border-radius: 16px;
-  background:  rgba(0, 0, 0, .4);
+  background: rgba(0, 0, 0, 0.4);
   background-image: url(images/Banner\ Image.png);
   background-blend-mode: overlay;
-  
 }
-.banner-content{
+.banner-content {
   color: white;
   height: 600px;
   padding: 190px 0px;
@@ -32,92 +31,89 @@
   align-items: center;
   text-align: center;
 }
-.banner-content p{
+.banner-content p {
   font-size: 28px;
   font-weight: 400px;
-
 }
-.banner-content h3{
-  font-size:70px;
+.banner-content h3 {
+  font-size: 70px;
   font-weight: bold;
 }
 /* Banner section style close */
 
-
 /* off section style start */
-.off-container{
+.off-container {
   width: 802.9px;
   height: 785px;
   margin: auto auto;
   text-align: center;
 }
-.off-container h2{
+.off-container h2 {
   font-size: 80px;
   font-weight: 700;
   color: rgb(255, 0, 0);
-  margin-bottom:40px;
+  margin-bottom: 40px;
 }
-.off-container p{
+.off-container p {
   font-size: 20px;
   font-weight: 500;
   color: rgb(255, 0, 0);
-  margin-bottom:20px;
+  margin-bottom: 20px;
 }
-.off-container h4{
+.off-container h4 {
   color: rgb(7, 2, 17);
   font-family: Inter;
   font-size: 42px;
   font-weight: 700;
-  margin-bottom:47px;
+  margin-bottom: 47px;
 }
 
 /* off section style close */
 
-
 /* Midnight party section style start */
-.midnight{
-max-width: 1320px;
-min-height: 600px;
-margin:200px auto;
-border-radius: 12px;
-background: linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%),
- url(images/Vectorrr.png);
- display: flex;
- flex-wrap: wrap;
- justify-content: center;
- align-items: center;
+.midnight {
+  max-width: 1320px;
+  min-height: 600px;
+  margin: 200px auto;
+  border-radius: 12px;
+  background: linear-gradient(90deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%),
+    url(images/Vectorrr.png);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
-.midnight-content{
+.midnight-content {
   width: 50%;
   text-align: start;
-  padding-left:100px;
+  padding-left: 100px;
 }
-.midnight-content h3{
-color: rgb(255, 255, 255);
-font-family: Merriweather;
-font-size: 56px;
-font-weight: 900;
-margin-bottom: 20px;
+.midnight-content h3 {
+  color: rgb(255, 255, 255);
+  font-family: Merriweather;
+  font-size: 56px;
+  font-weight: 900;
+  margin-bottom: 20px;
 }
-.midnight-content p{
-color: rgba(255, 255, 255, 0.8);
-font-family: Inter;
-font-size:18px;
-font-weight: 400;
-letter-spacing: 0%;
-margin-bottom: 40px;
+.midnight-content p {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0%;
+  margin-bottom: 40px;
 }
-.midnight-content button{
-color: rgba(255, 255, 255, 0.8);
-font-family: Inter;
-font-size: 18px;
-font-weight: 700;
-background-color: transparent;
-border: none;
-cursor: pointer;
-margin-left: 30px;
+.midnight-content button {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 700;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin-left: 30px;
 }
-.midnight-img{
+.midnight-img {
   width: 50%;
   text-align: center;
   justify-content: center;
@@ -125,123 +121,192 @@ margin-left: 30px;
 }
 /* Midnight party section style close */
 
-
 /* New park hotel section style start */
-.new-park-hotel{
-max-width: 1320px;
-min-height: 482px;
-text-align: center;
-align-items: center;
-justify-content: center;
-margin: auto auto;
-border-radius: 16px;
-background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
-
+.new-park-hotel {
+  max-width: 1320px;
+  min-height: 482px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: auto auto;
+  border-radius: 16px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1),
+    rgba(255, 0, 0, 0) 100%
+  );
 }
-.new-park-hotel h3{
-font-family: Inter;
-font-size: 28px;
-font-weight: 600;
-line-height:50px;
+.new-park-hotel h3 {
+  font-family: Inter;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 50px;
 }
-.n-p-h-h3-1{
-  padding-top:100px;
+.n-p-h-h3-1 {
+  padding-top: 100px;
 }
-.new-park-hotel span{
-  color:rgb(255, 0, 0);
+.new-park-hotel span {
+  color: rgb(255, 0, 0);
 }
-.new-park-hotel button{
-color: rgb(255, 255, 255);
-font-family: Inter;
-font-size: 18px;
-font-weight: 700;
-background-color:rgb(255, 0, 0) ;
-margin: 40px;
-justify-content: center;
-align-items: center;
-padding: 16px 32px 16px 32px;
-border-radius: 10px;
-cursor: pointer;
+.new-park-hotel button {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 700;
+  background-color: rgb(255, 0, 0);
+  margin: 40px;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 32px 16px 32px;
+  border-radius: 10px;
+  cursor: pointer;
 }
 /* New park hotel section style close */
 
-
-
-
 /* New best offer section style start */
-.new-best-offer{
+.new-best-offer {
   max-width: 1320px;
   min-height: 463px;
   display: flex;
-  margin:130px auto;
+  margin: 130px auto;
 }
-.new-best-offer div{
+.new-best-offer div {
   max-width: 33%;
   min-height: 100%;
-
 }
-.nbo-content-a{
+.nbo-content-a {
   text-align: start;
   align-items: center;
   justify-content: center;
-  padding-top:140px;
+  padding-top: 140px;
   padding-left: 10px;
   padding-right: 10px;
-  margin-right:0.5%;
+  margin-right: 0.5%;
 }
-.nbo-content-a h4{
-color: rgb(255, 0, 0);
-font-family: Inter;
-font-size: 20px;
-font-weight: 500;
-margin-bottom:15px;
+.nbo-content-a h4 {
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 15px;
 }
-.nbo-content-a h2{
+.nbo-content-a h2 {
   color: rgb(7, 2, 17);
   font-family: Merriweather;
   font-size: 42px;
   font-weight: 900;
   margin-bottom: 15px;
-  }
-  .nbo-content-a p{
-    color: rgba(7, 2, 17, 0.6);
-    font-family: Inter;
-    font-size: 20px;
-    font-weight: 400;
-    }
-  .nbo-img{
+}
+.nbo-content-a p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+}
+.nbo-img {
   border-radius: 50%;
   box-sizing: border-box;
   border: 11px solid rgb(255, 0, 0);
   text-align: center;
-  padding:20px;
-  }
-  .nbo-img img{
-  width:100%;
-  height:100%;
-  }
-  .nbo-content-b{
-    margin-left: 0.5%;
-    text-align:start;
-    align-items: center;
-    justify-content: center;
-    padding-left:80px;
-    padding-top:142px;
-  }
-  .nbo-content-b h2{
+  padding: 20px;
+}
+.nbo-img img {
+  width: 100%;
+  height: 100%;
+}
+.nbo-content-b {
+  margin-left: 0.5%;
+  text-align: start;
+  align-items: center;
+  justify-content: center;
+  padding-left: 80px;
+  padding-top: 142px;
+}
+.nbo-content-b h2 {
   color: rgb(255, 0, 0);
   font-family: Inter;
   font-size: 44px;
   font-weight: 700;
   margin-bottom: 20px;
-  }
-  .nbo-content-b p{
+}
+.nbo-content-b p {
   color: rgba(7, 2, 17, 0.6);
   font-family: Inter;
   font-size: 20px;
   font-weight: 500;
-  }
-  .nbo-content-b img{
-    margin-top:40px;
-  }
+}
+.nbo-content-b img {
+  margin-top: 40px;
+}
 /* New best offer section style close */
+
+/* holiday section style start */
+.holiday {
+  max-width: 1320px;
+  min-height: 986.07px;
+  margin: auto auto;
+}
+.holiday-content {
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+  margin: auto auto;
+  margin-bottom: 58px;
+}
+.holiday h4 {
+  color: rgb(7, 2, 17);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.holiday h2 {
+  font-family: Merriweather;
+  font-size: 64px;
+  font-weight: 900;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.holiday h2 span {
+  color: rgb(255, 0, 0);
+}
+.holiday p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+}
+.holiday-img {
+  width: 100%;
+  height: 662.07px;
+  display: flex;
+  background-image: url(images/Rectangle\ 2.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+.holiday-gift {
+  width: 60%;
+  height: 100%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.holiday-gift img {
+  width: 668.82px;
+  height: 570.96px;
+  margin-top: 60px;
+}
+.holiday-discount {
+  width: 40%;
+  height: 100%;
+  padding-top: 120px;
+  text-align: center;
+  align-items: center;
+}
+.holiday-discount img {
+  width: 250.84px;
+  height: 250.84px;
+}
+/* holiday section style close */
