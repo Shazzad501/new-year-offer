@@ -356,3 +356,60 @@
 }
 
 /* Awesome portfolio section style close */
+
+/* Subscribe section style start */
+.subscribe {
+  width: 1320px;
+  height: 616px;
+  margin: 115px auto;
+  text-align: center;
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+}
+.subscribe img {
+  margin-top: 60px;
+}
+.subscribe h2 {
+  color: rgb(7, 2, 17);
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  margin-top: 30px;
+}
+.subscribe p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+input {
+  margin-top: 70px;
+}
+.search {
+  width: 640px;
+  height: 72px;
+  border-radius: 50px 0px 0px 50px;
+  background: rgb(255, 255, 255);
+  border: none;
+}
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.search-container button {
+  width: 210px;
+  height: 72px;
+  margin-top: 70px;
+  border-radius: 0px 50px 50px 0px;
+  background: rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  border: none;
+}
+
+/* Subscribe section style close */
