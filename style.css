@@ -413,3 +413,66 @@ input {
 }
 
 /* Subscribe section style close */
+
+/* Footer section style start */
+.footer {
+  width: 1600px;
+  height: 609px;
+  background: rgb(7, 2, 17);
+  color: white;
+  padding: 140px;
+}
+.footer-container{
+  width:100%;
+  display: flex;
+}
+.footer .div1{
+  width: 50%;
+  font-size:24px;
+  line-height: 40px;
+}
+.footer .div1 img{
+  width: 24px;
+  height: 24px;
+}
+.footer .div2{
+  width: 50%;
+  text-align: right;
+  font-size:24px;
+  line-height: 40px;
+}
+.footer .div2 img{
+  width: 24px;
+height: 24px;
+}
+.footer .div3{
+  width: 100%;
+  text-align: center;
+}
+.footer .div3 img{
+  width: 50px;
+height: 50pxpx;
+margin: auto 20px;
+cursor: pointer;
+}
+
+hr{
+  margin: 40px 0px;
+}
+.footer .div4{
+  width: 100%;
+  display: flex;
+}
+.footer .div4 p{
+  width: 50%;
+  font-size: 24px;
+}
+.footer .div4 p:nth-child(1){
+  text-align: start;
+}
+.footer .div4 p:nth-child(2){
+  text-align: end;
+  cursor: pointer;
+}
+
+/* Footer section style close */
