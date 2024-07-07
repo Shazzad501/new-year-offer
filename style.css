@@ -310,3 +310,49 @@
   height: 250.84px;
 }
 /* holiday section style close */
+
+/* Awesome portfolio section style start */
+.portfolio {
+  max-width: 1320px;
+  min-height: 1163px;
+  margin: auto auto;
+  margin-top: 50px;
+}
+.portfolio-content h4 {
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.portfolio-content h2 {
+  color: rgb(7, 2, 17);
+  font-family: Merriweather;
+  font-size: 44px;
+  font-weight: 900;
+  margin-bottom: 15px;
+}
+
+.portfolio-content p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+.portfolio-img {
+  width: 100%;
+  display: flex;
+  gap: 27px;
+}
+.portfolio-img div {
+  width: 32%;
+  height: 450px;
+  margin: 24px 0px;
+}
+.portfolio-img div img {
+  width: 100%;
+  height: 100%;
+}
+
+/* Awesome portfolio section style close */
