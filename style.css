@@ -39,3 +39,35 @@
   font-weight: bold;
 }
 /* Banner section style close */
+
+
+/* off section style start */
+.off-container{
+  width: 802.9px;
+  height: 785px;
+  margin: auto auto;
+  text-align: center;
+}
+.off-container h2{
+  font-size: 80px;
+  font-weight: 700;
+  color: rgb(255, 0, 0);
+  margin-bottom:40px;
+}
+.off-container p{
+  font-size: 20px;
+  font-weight: 500;
+  color: rgb(255, 0, 0);
+  margin-bottom:20px;
+}
+.off-container h4{
+  color: rgb(7, 2, 17);
+  font-family: Inter;
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom:47px;
+}
+.off-container img{
+  ma
+}
+/* off section style close */
